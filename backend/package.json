@@ -4,11 +4,9 @@
   "description": "",
   "main": "server.js",
   "type": "module",
-  {
-    "scripts": {
-      "build": "npm install && npm rebuild bcrypt --build-from-source",
-      "start": "node server.js"
-    }
+  "scripts": {
+    "server": "nodemon server.js",
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
